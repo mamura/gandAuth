@@ -1,0 +1,22 @@
+.splash-page {
+    background-color: rgb(234, 237, 247);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.splash-top-header {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    background-image: $top-landing-bg;
+    height: 40vh;
+
+    svg {
+        max-width: 20em;
+    }
+}

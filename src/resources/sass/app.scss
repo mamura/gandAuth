@@ -1,102 +1,12 @@
-/* ############### BOOTSTRAP ############### */
-@import 'bootstrap/scss/bootstrap';
-/* ############### FONTS IMPORT ############### */
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900");
-@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800");
-@import url("https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800");
-@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
+/* Template */
+@import "./template/variables";
 
-/* ############### VARIABLES ############### */
-@import 'variables';
+/* Layouts */
+@import "./layouts/footer";
 
-/* ########## BOOTSTRAP OVERRIDES ########## */
-@import 'bootstrap/bootstrap-custom';
-@import 'bootstrap/accordions';
-@import 'bootstrap/alerts';
-@import 'bootstrap/badges';
-@import 'bootstrap/breadcrumbs';
-@import 'bootstrap/buttons';
-@import 'bootstrap/cards';
-@import 'bootstrap/carousel';
-@import 'bootstrap/dropdown';
-@import 'bootstrap/forms';
-@import 'bootstrap/grid';
-@import 'bootstrap/input-group';
-@import 'bootstrap/modals';
-@import 'bootstrap/navigation';
-@import 'bootstrap/pagination';
-@import 'bootstrap/popover';
-@import 'bootstrap/progress';
-@import 'bootstrap/tables';
-@import 'bootstrap/datatable';
-@import 'bootstrap/toast';
-@import 'bootstrap/tooltip';
-
-/* ############### Switcher STYLES ############### */
-
-@import 'switcher/default';
-@import 'switcher/dark-style';
-@import 'switcher/rtl';
-@import 'switcher/switcher-header-styles';
-@import 'switcher/switcher-menu-styles';
-@import 'switcher/switcher-styles';
-
-/* ########## LAYOUTS  ########## */
-@import 'layout/main-content';
-@import 'layout/header';
-@import 'layout/footer';
-@import 'layout/right-sidebar';
-@import 'layout/profile';
-@import 'layout/iconbar';
-@import 'layout/horizontal';
-@import 'layout/side-menu';
-
-// Custom
-//@import 'layout/custom-styles';
-
-/* ############### TEMPLATE STYLES ############### */
-@import 'template/calendar';
-@import 'template/chat';
-@import 'template/contacts';
-@import 'template/error';
-@import 'template/invoice';
-@import 'template/mail';
-@import 'template/profile';
-@import 'template/cryptocurrency';
-@import 'template/ecommerce-pages';
-@import 'template/notifications';
-
-/* ############### UTILITIES/HELPER CLASSES ############### */
-@import 'utils/background';
-@import 'utils/display';
-@import 'utils/flex';
-@import 'utils/border';
-@import 'utils/height';
-@import 'utils/margin';
-@import 'utils/opacity';
-@import 'utils/padding';
-@import 'utils/position';
-@import 'utils/typography';
-@import 'utils/width';
-
-/* ############### CUSTOM ELEMENT STYLES ############### */
-@import 'custom/component-cols';
-@import 'custom/landing';
-@import 'custom/tags';
-@import 'custom/tabs';
-@import 'custom/navbar';
-@import 'custom/wizard';
-@import 'custom/p-scroll';
-@import 'custom/radio';
-@import 'custom/rating';
-@import 'custom/timeline';
-@import 'custom/image';
-@import 'custom/list';
-@import 'custom/checkbox';
-@import 'custom/toggle';
-@import 'custom/listgroup';
-@import 'custom/jumborton';
-@import 'custom/custom-control';
-@import 'custom/custom-styles';
-
+/* Pages */
+@import "./pages/splash"
